@@ -1,7 +1,9 @@
 package main
 
-import "fmt"
+import (
+	"reservas/main/server"
+)
 
 func main() {
-	fmt.Printf("Hello, World")
+	server.Server()
 }
